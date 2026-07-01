@@ -25,6 +25,7 @@ app.layout = html.Div(
     children=[
         html.H1(
             "Pink Morsel Sales Visualiser",
+            id="header",
             style={"color": "#d6336c", "marginBottom": "10px"},
         ),
         html.P(
